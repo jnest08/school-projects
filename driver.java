@@ -108,6 +108,7 @@ public class Driver {
 	// To score "exemplary" you must correctly implement the "available" list.
         public static void printAnimals() {
             System.out.println("The method printAnimals needs to be implemented");
+	    System.out.printl(dogList);
 
         }
 }
