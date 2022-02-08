@@ -64,7 +64,7 @@ public class Driver {
         String name = scanner.nextLine();
 	System.out.println("What is the dog breed?");
 	String breed = scanner.nextLine();
-	dog.setBreed
+	dog.setBreed();
         for(Dog dog: dogList) {
             if(dog.getName().equalsIgnoreCase(name)) {
                 System.out.println("\n\nThis dog is already in our system\n\n");
