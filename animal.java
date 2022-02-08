@@ -62,11 +62,17 @@ public class Driver {
     public static void intakeNewDog(Scanner scanner) {
         System.out.println("What is the dog's name?");
         String name = scanner.nextLine();
+	System.out.println("What is the dog breed?");
+	String breed = scanner.nextLine();
+	dog.setBreed
         for(Dog dog: dogList) {
             if(dog.getName().equalsIgnoreCase(name)) {
                 System.out.println("\n\nThis dog is already in our system\n\n");
                 return; //returns to menu
             }
+	    else {
+		    dogList.add(dog);
+		    return;
         }
 
         // Add the code to instantiate a new dog and add it to the appropriate list
