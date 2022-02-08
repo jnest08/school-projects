@@ -4,13 +4,10 @@
 name: Java CI
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build: school-projects/.github/driver
+  build:
 
     runs-on: ubuntu-latest
 
